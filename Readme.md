@@ -154,27 +154,23 @@ After successful deployment, an **AWS Application Load Balancer** was automatica
 
 ## Screenshots
 
-> Screenshots are stored in the `screenshots/` folder.
-
 ### EKS Cluster
-
-![EKS Cluster](screenshots/eks-cluster.png)
+<img width="1920" alt="EKS Cluster" src="https://github.com/user-attachments/assets/02e9327a-db01-4608-933b-262d4387e4a5" />
 
 ### Fargate Profile
-
-![Fargate Profile](screenshots/fargate-profile.png)
+<img width="1669" alt="Fargate Profile" src="https://github.com/user-attachments/assets/b608b36a-a82d-4721-bd22-fbc6c9437ff0" />
 
 ### ALB Created by Ingress
+<img width="1662" alt="ALB Ingress" src="https://github.com/user-attachments/assets/8eefd168-d5ea-4a71-94f5-4b66372678d9" />
 
-![ALB](screenshots/alb.png)
+### Pods Running on AWS Fargate
+<img width="1919" alt="Pods Running" src="https://github.com/user-attachments/assets/eeef54a9-cdc3-492d-9235-7af187c3ba3a" />
 
-### Pods Running on Fargate
+### Application Running via ALB
+**URL:** http://k8s-game2048-ingress2-24d852dff4-433371638.us-east-1.elb.amazonaws.com/
 
-![Pods](screenshots/pods.png)
+<img width="1828" alt="2048 Application" src="https://github.com/user-attachments/assets/a76030a4-3392-4de9-a5a9-965f8a9cd5ed" />
 
-### Application Running
-
-![2048 App](screenshots/app-running.png)
 
 ---
 
